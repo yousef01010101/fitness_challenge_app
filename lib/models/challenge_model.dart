@@ -15,10 +15,10 @@ class ChallengeModel {
   final ChallengeDifficulty difficulty; // يقابل Stats (مستوى الصعوبة)
   final List<String> participantIds;
 
-  // --- 3. Metadata (بيانات وصفية) ---
+
   final DateTime startDate;
-  final DateTime createdAt;    // ✅ يقابل Creation Date
-  final DateTime lastModified; // ✅ يقابل Last Modified
+  final DateTime createdAt;  
+  final DateTime lastModified; 
 
   ChallengeModel({
     required this.id,
